@@ -31,7 +31,7 @@
 form.display{
     display: flex;
     justify-content: flex-end;
-    margin: 20px o;
+    margin: 20px 0;
 }
 form.display input{
     text-align: right;
