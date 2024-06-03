@@ -9,21 +9,21 @@ const questions = [
         ]
     },
     {
-        question:"which is largest animal in the world?",
+        question:"Find the missing terms in multiple of 3: 3, 6, 9, __, 15",
         answers:[
-            {text:"Shark",correct:false},
-            {text:"Blue whale",correct:true},
-            {text:"Giraffe",correct:false},
-            {text:"Elephant",correct:false},
+            {text:"10",correct:false},
+            {text:"11",correct:false},
+            {text:"12",correct:true},
+            {text:"13",correct:false},
         ]
     },
     {
-        question:"which is smallest continent in the world?",
+        question:"What is the value of Triple point of water?",
         answers:[
-            {text:"Asia",correct:false},
-            {text:"Australia",correct:true},
-            {text:"Arctic",correct:false},
-            {text:"Africa",correct:false},
+            {text:"273.16 k",correct:true},
+            {text:"273.16° c",correct:false},
+            {text:"0° c",correct:false},
+            {text:"-273.16 k",correct:false},
         ]
     },
     {
@@ -36,12 +36,12 @@ const questions = [
         ]
     },
     {
-        question:"which is largest desert in the world?",
+        question:"A projectile will achieve maximum horizontal range at which angle?",
         answers:[
-            {text:"kalahari",correct:false},
-            {text:"Gobi",correct:false},
-            {text:"Sahara",correct:false},
-            {text:"Antartica",correct:true},
+            {text:"90°",correct:false},
+            {text:"60°",correct:false},
+            {text:"45°",correct:false},
+            {text:"30°",correct:true},
         ]
     },
     {
