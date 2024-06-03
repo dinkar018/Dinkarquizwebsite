@@ -114,10 +114,10 @@ function selectAnswer(e){
 function showScore(){
     resetState();     
     var percent= parseFloat((score/questions.length)*100).toFixed(2);
-    sessionStorage.setItem("time",`${minutes} minutes and ${seconds} seconds`);
-    clearInterval(time);
+   
     questionElement.innerHTML = `you scored ${score} out of ${questions.length}!
-    and got ${percent} percent of total marks`;
+    and got ${percent} percent of total marks and taken ${minutes} minutes and ${seconds} seconds to complete the quiz`;
+    clearInterval(time);
     nextButton.innerHTML ="Play Again";
     nextButton.style.display = "block";
 }
