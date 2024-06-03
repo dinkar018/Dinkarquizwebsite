@@ -72,6 +72,17 @@ body{
     background: #ff9393;
 }
 .calculator{
-    padding-left: 1300px;
+    padding-left: 1100px;
     padding-top: 10px;
+}
+#logo{
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    width: 90px;
+    background: #001e4d;
+    height: 30px;
+    border-radius: 10px;
+    color: #e3f9ff;
+    cursor:pointer;
 }

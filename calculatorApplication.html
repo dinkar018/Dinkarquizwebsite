@@ -5,8 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>webcalculator</title>
     <link rel="stylesheet" href="calculator.css">
+    <script text="text/javascript">
+        function goToMainPage(){
+            window.location.href ="index.html";
+        }
+    </script>
 </head>
 <body>
+    <div class="cut">
+        <button id="cutbutton" onclick="goToMainPage()">cut</button>
+    </div>
     <div class="container">
         <div class="calculator">
     <form>
@@ -14,10 +22,10 @@
             <input type="text" name="display">
         </div>
         <div>
-            <input type="button" value="AC"onclick="display.value= ''">
-            <input type="button" value="DE"onclick="display.value= display.value.tostring().slice(0,-1)">
-            <input type="button" value="."onclick="display.value+= '.'">
-            <input type="button" value="/"onclick="display.value+= '/'">
+            <input type="button" value="AC" onclick="display.value= ''">
+            <input type="button" value="DE" onclick="display.value= display.value.tostring().slice(0,-1)">
+            <input type="button" value="." onclick="display.value+= '.'">
+            <input type="button" value="/" onclick="display.value+= '/'">
         </div>
         <div>
             <input type="button" value="7" onclick="display.value+= '7'">
@@ -32,10 +40,10 @@
             <input type="button" value="-"onclick="display.value+= '-'">
         </div>
         <div>
-            <input type="button" value="1"onclick="display.value+= '1'">
-            <input type="button" value="2"onclick="display.value+= '2'">
-            <input type="button" value="3"onclick="display.value+= '3'">
-            <input type="button" value="+"onclick="display.value+= '+'">
+            <input type="button" value="1" onclick="display.value += '1'">
+            <input type="button" value="2" onclick="display.value+= '2'">
+            <input type="button" value="3" onclick="display.value+= '3'">
+            <input type="button" value="+" onclick="display.value+= '+'">
         </div>
         <div>
             <input type="button" value="00"onclick="display.value+= '00'">
